@@ -8,7 +8,7 @@ public class Vector2Test {
     @Test
     void lengthSquaredComputesCorrectly() {
         Vector2 v = new Vector2(3.0, 4.0);
-        assertEquals(26.0, v.getLengthSquared(), 0.0001);
+        assertEquals(25.0, v.getLengthSquared(), 0.0001);
     }
 
     @Test
